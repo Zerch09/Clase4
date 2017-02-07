@@ -1,0 +1,48 @@
+﻿*{
+   margin:0;
+   padding:0;
+   color:white;
+   font-family:'Times New Roman'; 
+}
+#imagen {
+    width:720px;
+    height:394px;
+    background:url(Imagenes/cursos.jpg);
+    background-repeat:no-repeat;
+    position:fixed;
+    top:200px;
+    left:300px;
+}
+#info {
+    position:absolute;
+    overflow:hidden;
+    width:720px;
+    height:394px;
+    background: rgba(31,31,31,0.9);
+    -webkit-transition: opacity 0.2s;
+    opacity:0;
+}
+#imagen:hover #info {
+    opacity:1;
+}
+#headline{
+    position:center;
+    margin-top:20px;
+    -webkit-transition: margin 0.2s;
+    margin-left:-70px;
+    font-size:50px;
+}
+#imagen:hover #headline {
+    margin-left:290px;
+}
+#info2 {
+    margin:auto;
+    width:300px;
+    text-align:center;
+    -webkit-transition:margin 0.3s;
+    margin-top:240px;
+    font-size:25px;
+}
+#imagen:hover #info2 {
+    margin-top:70px;
+}

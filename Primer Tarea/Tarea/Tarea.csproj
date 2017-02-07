@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{54296F8F-25A9-4E3F-9F2A-8448444E40CC}</ProjectGuid>
+    <ProjectGuid>{A357F1A2-FE65-4978-B165-C7C667EB1F44}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ArkClase4</RootNamespace>
-    <AssemblyName>ArkClase4</AssemblyName>
+    <RootNamespace>Tarea</RootNamespace>
+    <AssemblyName>Tarea</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,10 +94,42 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AcercaDeEstilo.css" />
+    <Content Include="AcercaDeHTML.html" />
+    <Content Include="compustyle.css" />
+    <Content Include="ComputacionHTML.html" />
+    <Content Include="cursosestilo.css" />
+    <Content Include="CursosHTML.html" />
+    <Content Include="descargaEstilo.css" />
+    <Content Include="DescargasHTML.html" />
+    <Content Include="EstiloCompu.css" />
+    <Content Include="Imagenes\388-mail.png" />
+    <Content Include="Imagenes\401-facebook.png" />
+    <Content Include="Imagenes\402-facebook2.png" />
+    <Content Include="Imagenes\403-instagram.png" />
+    <Content Include="Imagenes\404-whatsapp.png" />
+    <Content Include="Imagenes\407-twitter.png" />
+    <Content Include="Imagenes\amistad.jpg" />
+    <Content Include="Imagenes\amistad_0.jpg" />
+    <Content Include="Imagenes\concurso-en-el-ordenador-con-signos-de-interrogacion-alrededor_318-59052.jpg" />
+    <Content Include="Imagenes\cursos-adwords-300x207.jpg" />
+    <Content Include="Imagenes\cursos.jpg" />
+    <Content Include="Imagenes\descargas.png" />
+    <Content Include="Imagenes\dragon-ball-super-wallpaper.jpg" />
+    <Content Include="Imagenes\estadio-futbol-720x389.jpg" />
+    <Content Include="Imagenes\Goku.png" />
+    <Content Include="Imagenes\Hola_goku_by_edicionesz3000-d6tamip.png" />
+    <Content Include="Imagenes\images.jpg" />
+    <Content Include="Imagenes\preguntas.png" />
+    <Content Include="Imagenes\Signo-de-interrogacion.jpg" />
+    <Content Include="Imagenes\VIDEO-JUEGOS-PERIODISMO.jpg" />
+    <Content Include="Objetivosestilo.css" />
+    <Content Include="ObjetivosHTML.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Imagenes\guywaving.gif-c200" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,10 +138,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTMLScorchet.html" />
-    <Content Include="JavaEscorchet.js" />
-    <Content Include="PracticaScorchet4.html" />
-    <Content Include="ScorchetStyle.css" />
+    <Content Include="EstiloPagina.css" />
+    <Content Include="Imagenes\035-file-text.png" />
+    <Content Include="Imagenes\City-Wallpaper-68.jpg" />
+    <Content Include="Imagenes\fondo-resumen-llamas-685.jpg" />
+    <Content Include="Imagenes\FondoP Info..jpg" />
+    <Content Include="Imagenes\Fondos de Pantalla Gratis Abstractos %28252%29.jpg" />
+    <Content Include="Imagenes\Perry.png" />
+    <Content Include="PaginaHTML.html" />
+    <Content Include="Pasatiemposestilo.css" />
+    <Content Include="PasatiemposHTML.html" />
+    <Content Include="PorqueHTML.html" />
+    <Content Include="ProfesoresycompañerosHTML.html" />
+    <Content Include="profesycompasestilo.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -128,9 +169,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50252</DevelopmentServerPort>
+          <DevelopmentServerPort>61353</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50252/</IISUrl>
+          <IISUrl>http://localhost:61353/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

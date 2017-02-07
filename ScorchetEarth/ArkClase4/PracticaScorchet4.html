@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="JavaEscorchet.js"></script>
+</head>
+<body>
+    <p>Cuadrado:<p/>
+    <input id="txtCuadrado" type="number" />
+    <input id="Button1" type="button" value="Calculo Area" onclick="document.getElementById('test').innerHTML = 'El area del cuadrado es ' + Area_Cuadrado(txtCuadrado.value)" />
+    <br>
+    <p>Rectangulo:</p>
+    <input id="txtRectangulo1" type="number"/>
+    <input id="txtRectangulo2" type="number" />
+    <input id="Button1" type="button" value="Calculo Area" onclick="document.getElementById('test').innerHTML = 'El area del rectangulo es ' + Area_Rectangulo(txtRectangulo1.value,txtRectangulo2.value)" />
+    <br>
+    <p>Triangulo:</p>
+    <input id="txtTriangulo1" type="number" />
+    <input id="txtTriangulo2" type="number" />
+    <input id="Button1" type="button" value="Calculo Area" onclick="document.getElementById('test').innerHTML = 'El area del triangulo es ' + Area_Triangulo(txtTriangulo1.value,txtTriangulo2.value)" />
+    <br>
+    <p>Rombo:</p>
+    <input id="txtRombo1" type="number" />
+    <input id="txtRombo2" type="number" />
+    <input id="Button1" type="button" value="Calculo Area" onclick="document.getElementById('test').innerHTML = 'El area del rombo ' + Area_Rombo(txtRombo1.value,txtRombo2.value)" />
+
+    <p id = "test">  
+    </p>
+</body>
+</html>
